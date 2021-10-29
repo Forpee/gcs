@@ -8,13 +8,14 @@ import MoreInfo from "../components/MoreInfo";
 import Third from "../components/Third";
 import Services from "../components/Services";
 import Modal from "../components/Modal";
+
 export default function Home() {
   return (
     <div>
       <Nav />
       <Head />
       <Info />
-      <Enlarge />
+     <Enlarge />
       <MoreInfo />
       <How />
       <Services />
@@ -24,3 +25,4 @@ export default function Home() {
     </div>
   );
 }
+ 

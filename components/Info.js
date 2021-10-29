@@ -11,7 +11,7 @@ export default function Info() {
     });
   }, []);
   return (
-    <div className="text-center text-white  mt-48 z-999 relative ok px-4">
+    <div className="text-center text-white  mt-48 z-999 relative ok px-5">
       <div className="">
         <h1 className="md:text-3xl text-xl mb-4 ">
           Risk mitigation measures are advised in terms of
@@ -21,7 +21,7 @@ export default function Info() {
           by yourself
         </h1>
       </div>
-      <div className="relative w-1/2 2xl:mx-auto mt-32 h-100">
+      <div className="relative md:w-1/2 text-xs md:text-base 2xl:mx-auto mt-32 h-100">
       
         <div className="absolute  top-0 left-0 flex  items-center">
           <img className="h-8 mx-4 testImg" src="/purp.svg" />
@@ -32,7 +32,7 @@ export default function Info() {
           <h1>Company Flush</h1>
         </div>
 
-        <div className="absolute top-52 left-56 flex items-center">
+        <div className="absolute top-52 left-10 xs:left-56 flex items-center">
           <img className="h-8 mx-4 testImg" src="/green.svg" />
           <h1>Surveys</h1>
         </div>
@@ -41,7 +41,7 @@ export default function Info() {
           <h1>Loss Reductions</h1>
         </div>
 
-        <div className="absolute top-100 left-40 flex items-center">
+        <div className="absolute top-100 left-12 xs:left-40 flex items-center">
           <img className="h-8 mx-4 testImg" src="/blue.svg" />
 
           <h1>Investigations</h1>
@@ -52,7 +52,7 @@ export default function Info() {
           <h1>Covert Agents</h1>
         </div>
 
-        <div className="absolute top-101 left-48 flex items-center">
+        <div className="absolute top-101 xs:left-48 flex items-center">
           <img className="h-8 mx-4 testImg" src="/purp.svg" />
 
           <h1>Insurance</h1>

@@ -1,12 +1,12 @@
 export default function MoreInfo() {
   return (
-    <div id='about' className="bg-white ">
+    <div id='about' className="bg-white pt-4 ">
       <div className=" bg-white text-center flex justify-center">
         <div className="w-screen/2 px-4">
-          <h1 className="mx-auto 2xl:text-7xl text-3xl font-bold mb-16  text-blue-100e">
+          <h1 className="mx-auto 2xl:text-7xl sm:text-3xl text-xl font-bold sm:mb-16 mb-4  text-blue-100e">
             Risk Assessment Framework for Enterprises
           </h1>
-          <p className="text-lg ">
+          <p className="sm:text-lg text-xs">
             Glass Consulting Services is a sole propriety owned and managed by
             Craig Glass who has over 30 years experience in business and private
             incident investigation, security management, cost containment and
@@ -15,7 +15,7 @@ export default function MoreInfo() {
           </p>
         </div>
       </div>
-      <div className="text-white bg-blue-100e 2xl:text-2xl text-center py-48 my-32">
+      <div className="text-white bg-blue-100e md:text-2xl sm:text-base text-sm text-center py-48 my-32">
         <p className="w-screen/2 mx-auto px-4">
           Glass Consulting Services is a consultancy and in addition to Glass
           Consulting Services operators, only approved, legally regulated,
@@ -28,12 +28,12 @@ export default function MoreInfo() {
           Johannesburg.
         </p>
       </div>
-      <div className="mt-64">
-        <h1 className="mx-auto mb-16 text-center text-blue-100e 2xl:text-5xl text-3xl font-semibold w-screen3/5">
+      <div className="sm:mt-64">
+        <h1 className="mx-auto mb-16 text-center text-blue-100e 2xl:text-5xl text-3xl font-semibold md:w-screen3/5">
           Definition of Residual Risk
         </h1>
-        <div className="2xl:flex justify-evenly mx-auto 2xl:gap-8 w-screen3/5">
-          <div className="2xl:w-96 text-lg text-blue-100e px-4">
+        <div className="md:flex justify-evenly mx-auto md:gap-8 md:w-screen3/5">
+          <div className="sm::w-96 md:text-lg text-base text-blue-100e px-4">
             <p>
               Residual risk is the modified risk after internal controls have
               been implemented and monitored and the effect of their findings
@@ -45,7 +45,7 @@ export default function MoreInfo() {
               executive manager.
             </p>
           </div>
-          <div className="2xl:w-96 2xl:mt-0 mt-8 text-lg text-blue-100e px-4">
+          <div className="md:w-96 md:mt-0 mt-8 md:text-lg text-base text-blue-100e px-4">
             <p>
               The method and degree of complexity involved in that evaluation
               does not change the significance of evaluation (or inherent) risk.

@@ -35,16 +35,16 @@ export default function Enlarge() {
     });
   }, []);
   return (
-    <div className="bg-white h-screen  items-center test-trig flex z-bad  ">
-      <div className="text-xxl text-right  text-small-enlarge font-bold test-text test-flex text-blue-100e  ">
+    <div className="bg-white h-screen   box-border items-center test-trig flex z-bad  ">
+      <div className="text-xxl md:text-8xl text-small-enlarge text-right   font-bold test-text test-flex text-blue-100e  ">
         GL
       </div>
       <div className="m-auto">
-        <h1 className="text-xxl text-small-enlarge   font-bold test-text flex text-blue-100e text-center ">
+        <h1 className="text-xxl md:text-8xl text-small-enlarge    font-bold test-text flex text-blue-100e text-center ">
           A
         </h1>
       </div>
-      <div className="text-xxl text-small-enlarge  font-bold test-text text-blue-100e test-flex ">
+      <div className="text-xxl md:text-8xl  text-small-enlarge   font-bold test-text text-blue-100e test-flex ">
         SS
       </div>
     </div>

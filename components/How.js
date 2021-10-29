@@ -22,7 +22,7 @@ export default function How() {
         <div className="bg-white h-screen flex items-center justify-center">
           <div className="absolute left-0 bg-black bottom-0 right-0 h-full bg-abs-black"></div>
           <div>
-            <h1 className="text-8xl mix-blend-difference text-center text-white font-bold m-auto">
+            <h1 className="md:text-8xl sm:text-5xl text-3xl mix-blend-difference text-center text-white font-bold m-auto">
              What do we do? 
             </h1>
           </div>

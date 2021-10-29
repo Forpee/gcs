@@ -11,7 +11,7 @@ export default function Nav() {
     <Disclosure>
       {({ open }) => (
         <div>
-          <div className="h-48 flex  py-8 px-16  text-white w-screen justify-between sm:justify-evenly items-center">
+          <div className="md:h-48 flex py-4 md:py-8 md:px-16  px-2 text-white w-screen justify-between sm:justify-evenly items-center">
             <div className="  flex items-center sm:hidden">
               {/* Mobile menu button*/}
               <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
